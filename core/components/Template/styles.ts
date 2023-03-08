@@ -19,7 +19,7 @@ object-position: bottom 90%;
 `
 export const Main = styled.main`
 position:relative;
-width:650px;
+max-width:650px;
 margin:auto;
 `
 
