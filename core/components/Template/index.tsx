@@ -7,6 +7,7 @@ type Props = {
     icon?:string
 }
 const Template =({img,children,icon}:Props)=>{
+    
 
     return (
     <S.Container>
