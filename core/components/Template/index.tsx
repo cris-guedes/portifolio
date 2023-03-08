@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Banner from "../Banner"
 import * as S from "./styles"
 
@@ -10,6 +11,10 @@ const Template =({img,children,icon}:Props)=>{
     
 
     return (
+        <>
+        <Head>
+        <title>Portifolio | Guedes</title>
+        </Head>
     <S.Container>
         {img&&
         <>
@@ -27,6 +32,7 @@ const Template =({img,children,icon}:Props)=>{
             </S.Content>
         </S.Main>
     </S.Container>
+    </>
   )
   
 }
