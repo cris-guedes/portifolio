@@ -21,7 +21,7 @@ const config: DocsThemeConfig = {
             // eslint-disable-next-line radar/no-small-switch
             switch (locale) {
                 default: {
-                    return "Search";
+                    return "Pesquisar";
                 }
             }
         },
