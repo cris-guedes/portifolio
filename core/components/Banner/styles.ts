@@ -7,13 +7,13 @@ display:flex;
 export const ImgConainer = styled.div`
 width:100%;
 height:250px;
+display:flex ; 
+align-items:center;
+justify-content:center;
 overflow:hidden;
 `
 export const Img = styled(Image)`
-display: block;
-    object-fit: cover;
     border-radius: 0px;
     width: 100%;
-    height: 30vh;
     opacity: 1;
 `
