@@ -1,11 +1,30 @@
-# Introduction
- 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+import TechnologyCards from "../core/components/Welcome/TechnologyCards"
+import ContactCards from "../core/components/Welcome/ContactCards"
+import GitHubStatus from "../core/components/Welcome/GitHubStatus"
+import Template from "../core/components/Template"
+import techs from "../core/models/tech-stack"
 
-## What is Nextra?
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+<Template img='/img/welcome.jfif' icon={'🙋‍♂️'}>
 
-## Documentation
+# Hello World
+ 👋 Olá meu nome e Antonio Cristian Guedes Da Silva tenho 23 anos de idade, entusiasta da **inovação**🚀.
+  Sou desenvovedor de sofware focado na stack **Javascript** desde **2021**. 
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+🔭Sempre fui uma pessoa curiosa que busca entender como as coisas funcionam. sempre gostei de pesquisar 🔎 sobre assuntos 
+ no qual tenho interrese e tentar entende-los a fundo me defino como uma pessoa **analista**, **resiliente** e **criativa**.
+<ContactCards />
+<br/><br/>
+
+
+<TechnologyCards techs={techs.mainTechnology} />
+<br/><br/>
+
+</Template>
+
+  
+
+
+
+
+

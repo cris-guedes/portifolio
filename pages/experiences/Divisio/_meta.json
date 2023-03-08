@@ -1,0 +1,36 @@
+{
+"index":{
+    "title":"Sobre a Divisio",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+    }
+},
+"upego":{
+    "title":"Up&Go",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+    }
+},
+"folio":{
+    "title":"Folio",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+    }
+},
+"ask-folio":{
+    "title":"Ask Folio",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+    }
+},
+"odyssey":{
+    "title":"Odyssey",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+}}
+}

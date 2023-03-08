@@ -1,15 +1,42 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title":"🙋‍♂️ Bem-Vindo",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+    }
+},
+  "history": {
+    "title":"📖 Minha Historia",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+    }
+},
+  "experiences": "💼 Experiências",
+    "events":{ 
+    "title":"✨ Eventos",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+  }},
+  "aboutpage":{ 
+    "title":"📋 Sobre a Pagina",
+    "theme": {
+    "timestamp": false,
+    "layout": "full"
+  }},
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "Blog",
+    "type": "page",
+    "theme": {
+      "timestamp": false
+      }
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Contato ",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.linkedin.com/in/antonio-cristian-a86b0b201/",
     "newWindow": true
   }
 }
