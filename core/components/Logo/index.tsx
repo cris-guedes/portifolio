@@ -7,6 +7,9 @@ const Logo =()=>{
         <S.ImgConainer>
         <S.Img src="/img/profile.png"/>
         </S.ImgConainer>
+        <S.Title>
+          <b>Antonio</b> Cristian
+        </S.Title>
        
   </S.Container>)
 }
