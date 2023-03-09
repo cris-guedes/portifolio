@@ -25,8 +25,22 @@ export default class MyDocument extends Document {
     }
     render() {
         return (
-            <Html>
-                <Head>
+            <Html >
+                <Head>      
+                  <link
+                    rel="shortcut icon"
+                    href="/img/computer.png"
+                  />
+                   <link rel="icon" href="/img/computer.png" />
+                  <link
+                    rel="apple-touch-icon"
+                    href="/img/computer.png"
+                  />
+                 
+                  <meta
+                    name="description"
+                    content="Olá seja bem vindo a minha pagina pessoal"
+                  />
                     
                 </Head>
                 <body>
